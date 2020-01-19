@@ -78,5 +78,10 @@
     })();
   </script>
   {{ end }}
+
+  <!-- Netlify Identity / Login -->
+  {{ if .IsHome }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  {{ end }}
 {{- partial "head_custom.html" . }}
 {{ template "_internal/google_analytics_async.html" . }}
