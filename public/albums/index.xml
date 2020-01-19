@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Albums on Kathy Smith | Photography</title>
-    <link>https://kathysmith.photography/albums/</link>
+    <link>https://inspiring-pike-52c512.netlify.com/albums/</link>
     <description>Recent content in Albums on Kathy Smith | Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 18 Jan 2020 11:05:04 -0500</lastBuildDate>
     
-	<atom:link href="https://kathysmith.photography/albums/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://inspiring-pike-52c512.netlify.com/albums/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Birds</title>
-      <link>https://kathysmith.photography/albums/birds/</link>
+      <link>https://inspiring-pike-52c512.netlify.com/albums/birds/</link>
       <pubDate>Sat, 18 Jan 2020 11:05:04 -0500</pubDate>
       
-      <guid>https://kathysmith.photography/albums/birds/</guid>
+      <guid>https://inspiring-pike-52c512.netlify.com/albums/birds/</guid>
       <description>   Blue heron fishing
       Blue heron waiting
       Fly bye
@@ -29,10 +29,10 @@
     
     <item>
       <title>Zoo</title>
-      <link>https://kathysmith.photography/albums/zoo/</link>
+      <link>https://inspiring-pike-52c512.netlify.com/albums/zoo/</link>
       <pubDate>Sat, 18 Jan 2020 11:05:04 -0500</pubDate>
       
-      <guid>https://kathysmith.photography/albums/zoo/</guid>
+      <guid>https://inspiring-pike-52c512.netlify.com/albums/zoo/</guid>
       <description>   Picking flowers
      </description>
     </item>
