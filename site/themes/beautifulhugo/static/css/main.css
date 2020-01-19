@@ -823,7 +823,7 @@ h4.see-also {
   color: #000000;
   letter-spacing: 12px;
   font-size: 72px;
-  font-weight: 200;
+  font-weight: 300;
   letter-spacing: 14px;
   text-align: center;
   text-transform: uppercase;
@@ -877,6 +877,10 @@ h4.see-also {
   padding: 40px 60px 50px 60px;
   height: 100%;
   width: 100%;
+}
+
+.homepage-nav ul {
+  display: flex;
 }
 
 .homepage-nav .nav-link {
@@ -958,4 +962,29 @@ nav ul li {
 
 .letter-spacing-wide {
   letter-spacing: 0.3em;
+}
+
+@media (max-width: 395px) {
+  .homepage-nav ul {
+    flex-direction: column;
+  }
+  .homepage-nav .nav-link {
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading .title {
+    font-size: 4rem;
+  }
+  .heading .subtitle {
+    letter-spacing: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-content-wrapper {
+    padding: 1rem;
+  }
 }
