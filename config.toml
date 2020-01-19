@@ -1,8 +1,0 @@
-baseURL = "https://inspiring-pike-52c512.netlify.com/"
-languageCode = "en-us"
-title = "Kathy Smith | Photography"
-theme = "beautifulhugo"
-
-[author]
-name = "Kathy Smith"
-website = "https://kathysmith.photography/"

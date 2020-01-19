@@ -1,0 +1,9 @@
+baseurl = "/"
+languageCode = "en-us"
+languageLang = "en"
+title = "Kathy Smith | Photography"
+theme = "beautifulhugo"
+
+[author]
+name = "Kathy Smith"
+website = "https://kathysmith.photography/"
