@@ -1,6 +1,7 @@
 ---
 title: Peter Iredale Wreck
-image: /images/peter_iredale_wreck.jpg
+image: >-
+  https://res.cloudinary.com/rama-llama/image/upload/v1580059979/peter_iredale_wreck_mgrafb.jpg
 tags:
   - scapes
   - sea
