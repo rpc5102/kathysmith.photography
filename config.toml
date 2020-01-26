@@ -4,6 +4,18 @@ languageLang = "en"
 title = "Kathy Smith | Photography"
 theme = "beautifulhugo"
 
-[author]
+[Params]
+  subtitle = "Build a beautiful and simple website in minutes"
+  mainSections = ["post","posts"]
+  logo = "android-chrome-144x144" # Expecting square dimensions
+  favicon = "favicon.ico"
+  dateFormat = "January 2, 2006"
+  socialShare = false
+  copyrightDate = "2020"
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[Author]
 name = "Kathy Smith"
 website = "https://kathysmith.photography/"
+# facebook = "kathy.smith.33046"

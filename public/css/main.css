@@ -435,6 +435,7 @@ footer .theme-by {
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .blog-tags:before {
@@ -851,7 +852,7 @@ h4.see-also {
 .cover:before {
   content: ' ';
   display: block;
-  background-image: url('../images/listening.jpg');
+  background-image: url('https://res.cloudinary.com/rama-llama/image/upload/v1580059941/listening_qqityb.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -907,6 +908,14 @@ h4.see-also {
 
 .border-white {
   border: 4px solid white;
+}
+
+.gallery .feature {
+  position: relative;
+  width: 75%;
+  padding-bottom: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer.homepage-footer {
