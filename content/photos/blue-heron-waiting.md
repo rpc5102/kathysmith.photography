@@ -1,6 +1,7 @@
 ---
 title: Blue Heron Waiting
-image: /images/Blue Heron Waiting.jpg
+image: >-
+  https://res.cloudinary.com/rama-llama/image/upload/v1580059973/Blue_Heron_Waiting_rss6wf.jpg
 tags:
   - wild
   - birds
