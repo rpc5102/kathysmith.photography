@@ -851,7 +851,7 @@ h4.see-also {
 .cover:before {
   content: ' ';
   display: block;
-  background-image: url('../images/listening.jpg');
+  background-image: url('https://res.cloudinary.com/rama-llama/image/upload/v1580059941/listening_qqityb.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
