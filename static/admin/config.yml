@@ -6,32 +6,6 @@ media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "/images"
 
 collections:
-  - name: 'gallery'
-    label: 'Gallery'
-    description: 'A gallery is a collection of albums.'
-    folder: 'content/galleries'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'album'
-    label: 'Album'
-    description: 'An album is a collection of photos.'
-    folder: 'content/albums'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'photos'
     label: 'Photo'
     folder: 'content/photos'
