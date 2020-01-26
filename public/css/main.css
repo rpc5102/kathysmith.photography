@@ -851,7 +851,7 @@ h4.see-also {
 .cover:before {
   content: ' ';
   display: block;
-  background-image: url('../images/people/listening.jpg');
+  background-image: url('../images/listening.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

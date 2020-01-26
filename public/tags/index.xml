@@ -10,5 +10,32 @@
 	<atom:link href="https://inspiring-pike-52c512.netlify.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>action</title>
+      <link>https://inspiring-pike-52c512.netlify.com/tags/action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/tags/action/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>birds</title>
+      <link>https://inspiring-pike-52c512.netlify.com/tags/birds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/tags/birds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>wild</title>
+      <link>https://inspiring-pike-52c512.netlify.com/tags/wild/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/tags/wild/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

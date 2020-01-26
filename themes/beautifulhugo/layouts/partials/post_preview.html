@@ -1,4 +1,4 @@
-<article class="post-preview">
+<article class="box">
 
     {{ if .Params.image }}
 
@@ -7,15 +7,15 @@
     {{- $.Page.Scratch.Add "figurecount" 1 -}}
 
     <!-- use either src or link-thumb for thumbnail image -->
-    <div class="box">
-        <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-            <div class="img" style="background-image: url('{{ .Params.image }}');">
-                <img itemprop="thumbnail" src="{{ .Params.image }}" />
-            </div>
-            <a href="{{ .Params.image }}" itemprop="contentUrl"></a>
-        </figure>
-    </div>
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="img" style="background-image: url('{{ .Params.image }}');">
+            <img itemprop="thumbnail" src="{{ .Params.image }}" />
+        </div>
+        <a href="{{ .Params.image }}" itemprop="contentUrl"></a>
+    </figure>
     {{ end }}
+
+    {{/*}}
 
     <div class="post-entry">
         {{ if .Truncated }}
@@ -33,5 +33,5 @@
         {{ end }}
     </div>
     {{ end }}
-
+    {{*/}}
 </article>
