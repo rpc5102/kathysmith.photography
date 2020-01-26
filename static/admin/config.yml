@@ -41,5 +41,5 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Image', name: 'image', widget: 'image' }
+      - { label: 'Image', name: 'image', widget: 'image', required: true }
       - { label: 'Tags', name: 'tags', widget: 'list' }
