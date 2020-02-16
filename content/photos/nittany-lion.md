@@ -7,5 +7,6 @@ categories:
   - events
   - sports
 tags:
-  - ''
+  - psu
 ---
+
