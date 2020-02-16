@@ -24,9 +24,13 @@
         {{ end }}
 
         {{ if .Params.tags }}
-          <div class="blog-tags">
+          <div class="tags">
             {{ range .Params.tags }}
-              <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+              {{ if . }}
+                <div class="tag">
+                  <a href="{{ $.Site.LanguagePrefix | absURL }}/tags/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                </div>
+              {{ end }}
             {{ end }}
           </div>
         {{ end }}

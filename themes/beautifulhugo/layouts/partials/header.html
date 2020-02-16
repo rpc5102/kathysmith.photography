@@ -59,9 +59,14 @@
           <div class="heading {{ .Type }}-heading">
             {{ if eq .Type "list" }}
               <h1 class="title">{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
+            {{ else if eq .Type "photos" }}
+              <h1 class="title">{{ with $title }}{{.}}{{ else }}<br />{{ end }}</h1>
+              <hr class="mb-0">
+              {{- partial "nav.html" . }}
+              <hr class="mt-0">
             {{ else }}
               <h1 class="title">{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
-              <h2 class="subtitle"><a href="/" title="Return home">Photography</a></h2>
+              <h2 class="subtitle"><a href="/photos" title="Return to gallery">Photography</a></h2>
               <hr class="mb-0">
               {{- partial "nav.html" . }}
               <hr class="mt-0">
