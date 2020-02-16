@@ -19,3 +19,65 @@ theme = "beautifulhugo"
 name = "Kathy Smith"
 website = "https://kathysmith.photography/"
 # facebook = "kathy.smith.33046"
+
+[menu]
+  [[menu.main]]
+      identifier = "action"
+      name = "Action"
+      url = "/tags/action"
+      weight = 1
+
+  [[menu.main]]
+      parent = "action"
+      name = "Sports"
+      url = "/tags/sports"
+      weight = 1
+
+  [[menu.main]]
+      parent = "action"
+      name = "Events"
+      url = "/tags/events"
+      weight = 2
+
+  [[menu.main]]
+      parent = "action"
+      name = "Motion"
+      url = "/tags/motion"
+      weight = 3
+
+  [[menu.main]]
+      identifier = "people"
+      name = "People"
+      weight = 1
+
+  [[menu.main]]
+      parent = "people"
+      name = "Black and White"
+      url = "/tags/bw"
+      weight = 1
+
+  [[menu.main]]
+      name = "Scapes"
+      url = "tags/scapes"
+      weight = 1
+
+  [[menu.main]]
+      name = "Stills"
+      url = "tags/stills"
+      weight = 1
+
+  [[menu.main]]
+      name = "Wild"
+      url = "tags/wild"
+      weight = 1
+
+  [[menu.wild]]
+      name = "Wild"
+      url = "/tags/wild"
+      weight = 1
+
+  [[menu.wild]]
+      parent = "wild"
+      name = "Birds"
+      url = "/tags/birds"
+      weight = 1

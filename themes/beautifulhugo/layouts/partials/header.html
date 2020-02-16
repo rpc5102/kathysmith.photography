@@ -63,9 +63,11 @@
               {{ else }}
                 <h1 class="title">{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
                 <h2 class="subtitle"><a href="/" title="Return home">Photography</a></h2>
+                <hr>
+                {{- partial "nav.html" . }}
               {{ end }}
               {{ if ne .Type "post" }}
-                <hr>
+                <!-- <hr> -->
               {{ end }}
               {{ if $subtitle }}
                 {{ if eq .Type "page" }}
