@@ -22,8 +22,8 @@ website = "https://kathysmith.photography/"
 
 [menu]
   [[menu.main]]
-      identifier = "action"
       name = "Action"
+      identifier = "action"
       url = "/tags/action"
       weight = 1
 
@@ -67,17 +67,6 @@ website = "https://kathysmith.photography/"
       weight = 1
 
   [[menu.main]]
+      identifier = "wild"
       name = "Wild"
-      url = "tags/wild"
-      weight = 1
-
-  [[menu.wild]]
-      name = "Wild"
-      url = "/tags/wild"
-      weight = 1
-
-  [[menu.wild]]
-      parent = "wild"
-      name = "Birds"
-      url = "/tags/birds"
       weight = 1

@@ -6,14 +6,15 @@
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav justify-content-between w-100">
-      {{ .Page.RelPermalink }}
       {{ range .Site.Menus.main.ByWeight }}
         {{ if .HasChildren }}
+          <a>{{ $parent := .Parent }}</a>
           {{ range .Children }}
-          <li class="{{ if $.Page.IsMenuCurrent "main" . }}active{{ end }}">
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-          {{ .Parent }}
+            {{ if eq .Parent $.Page.LinkTitle }}
+            <li {{ if $.Page.IsMenuCurrent "main" . }}class="active"{{ end }}>
+              <a href="{{ .URL }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
           {{ end }}
         {{ end }}
       {{ end }}
