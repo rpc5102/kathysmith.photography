@@ -143,6 +143,12 @@ figure {
 }
 
 /* --- Navbar --- */
+.navbar li a {
+  color: black;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
 
 .navbar-custom {
   background: #F5F5F5;

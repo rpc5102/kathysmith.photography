@@ -11,24 +11,6 @@
     
     
     <item>
-      <title>Autumn Fire</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/autumn-fire/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/autumn-fire/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Babysitting</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/babysitting/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/babysitting/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Blackcapped Chicadee</title>
       <link>https://inspiring-pike-52c512.netlify.com/photos/blackcapped-chicadee/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -66,6 +48,15 @@
     
     <item>
       <title>Color</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/color-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/color-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Color</title>
       <link>https://inspiring-pike-52c512.netlify.com/photos/color/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -88,15 +79,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://inspiring-pike-52c512.netlify.com/photos/fly-bye/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Fog</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/fog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/fog/</guid>
       <description></description>
     </item>
     
@@ -164,6 +146,15 @@
     </item>
     
     <item>
+      <title>People - Babysitting</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/babysitting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/babysitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Peter Iredale Wreck</title>
       <link>https://inspiring-pike-52c512.netlify.com/photos/peter-iredale-wreck/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -200,11 +191,20 @@
     </item>
     
     <item>
-      <title>Resting</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/resting/</link>
+      <title>Scape - Autumn Fire</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/autumn-fire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/resting/</guid>
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/autumn-fire/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Scape - Fog</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/fog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/fog/</guid>
       <description></description>
     </item>
     
@@ -245,11 +245,29 @@
     </item>
     
     <item>
+      <title>The Gymnast</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/the-gymnast-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/the-gymnast-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>War</title>
       <link>https://inspiring-pike-52c512.netlify.com/photos/war/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://inspiring-pike-52c512.netlify.com/photos/war/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Water Drop</title>
+      <link>https://inspiring-pike-52c512.netlify.com/photos/water-drop-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://inspiring-pike-52c512.netlify.com/photos/water-drop-1/</guid>
       <description></description>
     </item>
     
