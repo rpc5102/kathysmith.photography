@@ -6,6 +6,6 @@ categories:
   - scapes
   - land
 tags:
-  - test
+  - ''
 ---
 
