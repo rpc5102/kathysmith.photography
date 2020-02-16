@@ -4,9 +4,8 @@ image: >-
   https://res.cloudinary.com/rama-llama/image/upload/v1580059934/Nittany_Lion_odzbrk.jpg
 categories:
   - action
-tags:
-  - action
   - events
   - sports
+tags:
+  - ''
 ---
-

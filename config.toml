@@ -24,49 +24,51 @@ website = "https://kathysmith.photography/"
   [[menu.main]]
       name = "Action"
       identifier = "action"
-      url = "/tags/action"
+      url = "/categories/action"
       weight = 1
 
   [[menu.main]]
       parent = "action"
       name = "Sports"
-      url = "/tags/sports"
+      url = "/categories/sports"
       weight = 1
 
   [[menu.main]]
       parent = "action"
       name = "Events"
-      url = "/tags/events"
+      url = "/categories/events"
       weight = 2
 
   [[menu.main]]
       parent = "action"
       name = "Motion"
-      url = "/tags/motion"
+      url = "/categories/motion"
       weight = 3
 
   [[menu.main]]
       identifier = "people"
+      url = "/categories/people"
       name = "People"
       weight = 1
 
   [[menu.main]]
       parent = "people"
       name = "Black and White"
-      url = "/tags/bw"
+      url = "/categories/bw"
       weight = 1
 
   [[menu.main]]
       name = "Scapes"
-      url = "tags/scapes"
+      url = "/categories/scapes"
       weight = 1
 
   [[menu.main]]
       name = "Stills"
-      url = "tags/stills"
+      url = "/categories/stills"
       weight = 1
 
   [[menu.main]]
       identifier = "wild"
+      url = "/categories/wild"
       name = "Wild"
       weight = 1

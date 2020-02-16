@@ -53,33 +53,32 @@
         <span class="img-desc" style="display: inline;"></span>
       </div>
     {{end}}
-    <div class="intro-header no-img">
-      <div class="container">
-        <div class="row">
-          <div class="col">
-            <div class="heading {{ .Type }}-heading">
-              {{ if eq .Type "list" }}
-                <h1 class="title">{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col">
+          <div class="heading {{ .Type }}-heading">
+            {{ if eq .Type "list" }}
+              <h1 class="title">{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
+            {{ else }}
+              <h1 class="title">{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
+              <h2 class="subtitle"><a href="/" title="Return home">Photography</a></h2>
+              <hr class="mb-0">
+              {{- partial "nav.html" . }}
+              <hr class="mt-0">
+            {{ end }}
+            {{ if ne .Type "post" }}
+
+            {{ end }}
+            {{ if $subtitle }}
+              {{ if eq .Type "page" }}
+                <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
               {{ else }}
-                <h1 class="title">{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
-                <h2 class="subtitle"><a href="/" title="Return home">Photography</a></h2>
-                <hr>
-                {{- partial "nav.html" . }}
+                <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
               {{ end }}
-              {{ if ne .Type "post" }}
-                <!-- <hr> -->
-              {{ end }}
-              {{ if $subtitle }}
-                {{ if eq .Type "page" }}
-                  <span class="{{ .Type }}-subheading">{{ $subtitle }}</span>
-                {{ else }}
-                  <h2 class="{{ .Type }}-subheading">{{ $subtitle }}</h2>
-                {{ end }}
-              {{ end }}
-              {{ if eq .Type "post" }}
-                {{ partial "post_meta.html" . }}
-              {{ end }}
-            </div>
+            {{ end }}
+            {{ if eq .Type "post" }}
+              {{ partial "post_meta.html" . }}
+            {{ end }}
           </div>
         </div>
       </div>
