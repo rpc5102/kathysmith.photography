@@ -27,6 +27,7 @@
   {{ end }}
 
   <header class="header-section {{ if $bigimg }}has-img{{ end }}">
+    {{ partial "nav-mobile" . }}
     {{ if $bigimg }}
       <div class="intro-header big-img">
         {{ $subtitle := $.Scratch.Get "subtitle" }}
@@ -61,14 +62,18 @@
               <h1 class="title">{{ if .Data.Singular }}#{{ end }}{{ .Title }}</h1>
             {{ else if eq .Type "photos" }}
               <h1 class="title">{{ with $title }}{{.}}{{ else }}<br />{{ end }}</h1>
-              <hr class="mb-0">
-              {{- partial "nav.html" . }}
+              <div class="d-none d-sm-block">
+                <hr class="mb-0">
+                {{- partial "nav.html" . }}
+              </div>
               <hr class="mt-0">
             {{ else }}
               <h1 class="title">{{ with $title }}{{.}}{{ else }}<br/>{{ end }}</h1>
               <h2 class="subtitle"><a href="/photos" title="Return to gallery">Photography</a></h2>
-              <hr class="mb-0">
-              {{- partial "nav.html" . }}
+              <div class="d-none d-sm-block">
+                <hr class="mb-0">
+                {{- partial "nav.html" . }}
+              </div>
               <hr class="mt-0">
             {{ end }}
             {{ if ne .Type "post" }}
