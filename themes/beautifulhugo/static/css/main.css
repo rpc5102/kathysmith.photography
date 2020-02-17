@@ -17,30 +17,6 @@ body {
   letter-spacing: 2px;
 }
 
-@media only screen and (min-width: 576px) {
-  .container {
-    max-width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
 .container[role=main] {
   padding: 0 0.75rem;
   margin: 0 auto 2rem auto;
@@ -180,8 +156,34 @@ figure {
   color: black;
   font-size: 1.4rem;
   text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 20px;
 }
 
+.navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navlinks-children {
+  display: none;
+}
+
+.navlinks-children a {
+  padding: 0.5rem 1.25rem;
+}
+
+.navlinks-parent:hover ~ .navlinks-children,
+.navlinks-children:hover,
+.navlinks-children:focus,
+.navlinks-children:active {
+  display: block;
+  position: absolute;
+  background: white;
+  z-index: 2;
+  flex-direction: column;
+  display: flex;
+  margin-top: 9px;
+}
 
 .navbar-custom {
   background: #F5F5F5;
@@ -298,11 +300,6 @@ figure {
 }
 .navbar-custom .nav .navlinks-parent:after {
   content: " \25BC";
-}
-.navbar-custom .nav .navlinks-children {
-  width: 100%;
-  display: none;
-  word-break: break-word;
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
@@ -1154,5 +1151,40 @@ nav ul li {
     visibility: hidden;
     opacity: 1;
     margin-top: 6px;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .navbar-nav li a {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .navbar-nav li a {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .navbar-nav li a {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }

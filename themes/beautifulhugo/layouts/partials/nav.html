@@ -1,19 +1,22 @@
-<nav class="navbar navbar-fixed-top">
-  <div class="container-fluid">
-    <!--<div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
-        <span class="sr-only">{{ i18n "toggleNavigation" }}</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>-->
+<nav class="navbar navbar-fixed-top px-0">
+  <div class="container-fluid px-0">
     <div class="collapse navbar-collapse flex-row justify-content-between show" id="main-navbar">
       <ul class="nav navbar-nav flex-row justify-content-between">
         {{ range .Site.Menus.main.ByWeight }}
-        <li>
-          <a title="{{ .Name }}" href="{{ .URL  | relLangURL }}">{{ .Name }}</a>
-        </li>
+          {{ if .HasChildren }}
+            <li class="navlinks-container">
+              <a title="{{ .Name }}" href="{{ .URL  | relLangURL }}" class="navlinks-parent">{{ .Name }}</a>
+              <div class="navlinks-children">
+                {{ range .Children }}
+                  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                {{ end }}
+              </div>
+            </li>
+          {{ else }}
+            <li>
+              <a title="{{ .Name }}" href="{{ .URL  | relLangURL }}">{{ .Name }}</a>
+            </li>
+          {{ end }}
         {{ end }}
       </ul>
     </div>
