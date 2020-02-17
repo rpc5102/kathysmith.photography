@@ -59,11 +59,19 @@ website = "https://kathysmith.photography/"
       weight = 1
 
   [[menu.main]]
+      parent = "people"
+      name = "Color"
+      url = "/categories/color"
+      weight = 1
+
+  [[menu.main]]
+      identifier = "scapes"
       name = "Scapes"
       url = "/categories/scapes"
       weight = 1
 
   [[menu.main]]
+      identifier = "stills"
       name = "Stills"
       url = "/categories/stills"
       weight = 1
@@ -72,4 +80,58 @@ website = "https://kathysmith.photography/"
       identifier = "wild"
       url = "/categories/wild"
       name = "Wild"
+      weight = 1
+
+  [[menu.main]]
+      parent = "wild"
+      url = "/categories/birds"
+      name = "Birds"
+      weight = 1
+
+  [[menu.main]]
+      parent = "wild"
+      url = "/categories/pets"
+      name = "Pets"
+      weight = 1
+
+  [[menu.main]]
+      parent = "wild"
+      url = "/categories/zoo"
+      name = "Zoo"
+      weight = 1
+
+  [[menu.main]]
+      parent = "stills"
+      url = "/categories/abstracts"
+      name = "Abstracts"
+      weight = 1
+
+  [[menu.main]]
+      parent = "stills"
+      url = "/categories/flowers"
+      name = "Flowers"
+      weight = 1
+
+  [[menu.main]]
+      parent = "stills"
+      url = "/categories/studio"
+      name = "Studio"
+      weight = 1
+
+  [[menu.main]]
+      parent = "scapes"
+      url = "/categories/land"
+      name = "Land"
+      weight = 1
+
+  [[menu.main]]
+      parent = "scapes"
+      url = "/categories/sea"
+      name = "Sea"
+      weight = 1
+
+  [[menu.main]]
+      parent = "scapes"
+      url = "/categories/city"
+      name = "City"
       weight = 1
