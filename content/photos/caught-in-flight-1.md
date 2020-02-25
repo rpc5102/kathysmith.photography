@@ -5,6 +5,7 @@ image: >-
 categories:
   - people
   - street
+  - bw
 tags:
   - street scenes
 ---
