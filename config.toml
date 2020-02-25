@@ -63,6 +63,12 @@ website = "https://kathysmith.photography/"
       name = "Color"
       url = "/categories/color"
       weight = 1
+      
+   [[menu.main]]
+      parent = "people"
+      name = "Street"
+      url = "/categories/street"
+      weight = 1     
 
   [[menu.main]]
       identifier = "scapes"
