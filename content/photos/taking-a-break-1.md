@@ -1,9 +1,9 @@
 ---
-title: Taking a break
+title: Block
 image: >-
   https://res.cloudinary.com/rama-llama/image/upload/v1583100051/The_Block_nekolm.jpg
 categories:
-  - action
+  - Sports
 tags:
   - basketball
 ---
