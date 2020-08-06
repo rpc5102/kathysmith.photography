@@ -1,6 +1,6 @@
 ---
-title: Ten
-image: https://res.cloudinary.com/rama-llama/image/upload/v1596752001/Ten_zsli6r.jpg
+title: Concentration
+image: https://res.cloudinary.com/rama-llama/image/upload/v1596753281/Concentration_mwehio.jpg
 categories:
   - Action
   - Sports
