@@ -156,4 +156,10 @@ figcaption styles
 figcaption p {
     margin: auto; /* override style in theme */
 }
-
+.text-overlay {
+    color: #ffffff;
+    position: absolute;
+    top: 90%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
