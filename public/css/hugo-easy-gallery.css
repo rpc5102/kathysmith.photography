@@ -36,7 +36,7 @@ Grid Layout Styles
 @media only screen and (min-width : 9999px) {
    /* Medium desktop: 4 tiles */
    .box {
-      width: 25%;
+      width: 33.3%;
       padding-bottom: 25%;
    }
 }
