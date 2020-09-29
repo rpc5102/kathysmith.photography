@@ -1175,7 +1175,7 @@ nav ul li {
 
 @media only screen and (min-width: 992px) {
   .container {
-    max-width: 960px;
+    max-width: 1800px;
   }
 
   .navbar-nav li a {
