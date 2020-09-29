@@ -1,30 +1,120 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>action on Kathy Smith | Photography</title>
-    <link>https://inspiring-pike-52c512.netlify.com/categories/action/</link>
-    <description>Recent content in action on Kathy Smith | Photography</description>
+    <title>Action on Kathy Smith | Photography</title>
+    <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/categories/action/</link>
+    <description>Recent content in Action on Kathy Smith | Photography</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://inspiring-pike-52c512.netlify.com/categories/action/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/categories/action/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Nittany Lion</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/nittany-lion/</link>
+      <title>Battle Lost</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/battle-lost/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/nittany-lion/</guid>
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/battle-lost/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Child</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/child/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/child/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentration</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/concentration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/concentration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Concentration</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/ten/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/ten/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flaminco</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/flaminco/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/flaminco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hang On</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/floor-x/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/floor-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Retuchakra - Blue</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/retuchakra-blue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/retuchakra-blue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rituchakra Dance</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/rituchakra-dance/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/rituchakra-dance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rituchakra Story</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/rituchakra-story/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/rituchakra-story/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Fans</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-fans/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-fans/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Gymnast</title>
-      <link>https://inspiring-pike-52c512.netlify.com/photos/the-gymnast-1/</link>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-gymnast-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://inspiring-pike-52c512.netlify.com/photos/the-gymnast-1/</guid>
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-gymnast-1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Pep Talk</title>
+      <link>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-pep-talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://5f6fb5a2b444f52da2be16a1--jovial-liskov-b176a1.netlify.app/photos/the-pep-talk/</guid>
       <description></description>
     </item>
     

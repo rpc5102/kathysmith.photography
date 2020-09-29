@@ -144,12 +144,46 @@ figure {
 }
 
 /* --- Navbar --- */
+.navbar-mobile {
+  width: 100%;
+  background-color: #151515;
+  height: 56px;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+
 .navbar li a {
   color: black;
   font-size: 1.4rem;
   text-transform: uppercase;
+  cursor: pointer;
+  padding: 10px 20px;
 }
 
+.navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navlinks-children {
+  display: none;
+}
+
+.navlinks-children a {
+  padding: 0.5rem 1.25rem;
+}
+
+.navlinks-parent:hover ~ .navlinks-children,
+.navlinks-children:hover,
+.navlinks-children:focus,
+.navlinks-children:active {
+  display: block;
+  position: absolute;
+  background: white;
+  z-index: 2;
+  flex-direction: column;
+  display: flex;
+  margin-top: 9px;
+}
 
 .navbar-custom {
   background: #F5F5F5;
@@ -266,11 +300,6 @@ figure {
 }
 .navbar-custom .nav .navlinks-parent:after {
   content: " \25BC";
-}
-.navbar-custom .nav .navlinks-children {
-  width: 100%;
-  display: none;
-  word-break: break-word;
 }
 .navbar-custom .nav .navlinks-container .navlinks-children a {
   display: block;
@@ -438,40 +467,40 @@ footer .theme-by {
 
 /* --- Tags --- */
 
-.blog-tags {
+.tags {
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
   text-align: center;
 }
 
-.blog-tags:before {
+.tags .tag:first-child:before {
   content: "Tags: ";
 }
 
-.blog-tags a {
+.tags a {
   color: #008AFF;
   text-decoration: none;
   padding: 0px 5px;
 }
 
-.blog-tags a:before {
+.tags a:not(:empty):before {
   content: "#";
 }
 
-.blog-tags a:hover {
+.tags a:hover {
   border-radius: 2px;
   color: #008AFF;
   background-color: #CCC;
 }
 
-.post-preview .blog-tags {
+.post-preview .tags {
   margin-top: 5px;
   margin-bottom: 0;
 }
 
 @media only screen and (min-width: 768px) {
-  .post-preview .blog-tags {
+  .post-preview .tags {
     margin-top: 10px;
   }
 }
@@ -930,6 +959,11 @@ h4.see-also {
   margin-right: auto;
 }
 
+.gallery .feature .img {
+  background-size: 100%;
+  background-position: unset;
+}
+
 footer.homepage-footer {
   padding: 0;
   background: transparent;
@@ -937,8 +971,13 @@ footer.homepage-footer {
   margin: 0;
 }
 
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .social-icon {
-  display: inline-block;
+  margin-left: 0.4rem;
 }
 
 .icon-wrapper {
@@ -1010,6 +1049,111 @@ nav ul li {
   }
 }
 
+/* Mobile Menu - Overlay */
+
+#resize {
+  z-index: 1;
+  top: 0px;
+  position: absolute;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s ease-out;
+  display: table;
+}
+
+#resize #menu {
+  height: 90px;
+  display: table-cell;
+  vertical-align: center;
+}
+
+#resize #menu li {
+  display: block;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2rem;
+  min-height: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+#resize li:nth-child(1) {
+  margin-top: 140px;
+}
+
+#resize #menu li a {
+  color: #fff;
+}
+
+#resize.active {
+  visibility: visible;
+  opacity: 0.99;
+}
+
+#toggle {
+  position: absolute;
+  right: 1rem;
+  top: 0.5rem;
+  z-index: 999;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  float: right;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
+  opacity: 0;
+}
+
+#toggle .span {
+  height: 3px;
+  background: #FFF;
+  transition: all 0.3s ease-in-out;
+  backface-visibility: hidden;
+  margin: 5px auto;
+}
+
+#toggle.on .span {
+  background: #FFF;
+}
+
+#toggle.on #one {
+  transform: rotate(45deg) translateX(2px) translateY(4px);
+}
+
+#toggle.on #two {
+  opacity: 0;
+}
+
+#toggle.on #three {
+  transform: rotate(-45deg) translateX(8px) translateY(-10px);
+}
+
+@media(max-width: 576px) {
+  .navbar-mobile {
+    display: block;
+  }
+  #toggle {
+    visibility: visible;
+    opacity: 1;
+    margin-top: 6px;
+  }
+}
+
+@media(min-width: 576px) {
+  #resize {
+    visibility: hidden !important;
+  }
+  #toggle {
+    visibility: hidden;
+    opacity: 1;
+    margin-top: 6px;
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .container {
     max-width: 100%;
@@ -1031,7 +1175,7 @@ nav ul li {
 
 @media only screen and (min-width: 992px) {
   .container {
-    max-width: 100%;
+    max-width: 1800px;
   }
 
   .navbar-nav li a {
