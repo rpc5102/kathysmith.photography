@@ -20,10 +20,10 @@ Grid Layout Styles
     padding-bottom: 100%;
 }
 @media only screen and (min-width : 365px) {
-    /* Tablet view: 2 tiles */
+    /* Tablet view: 3 tiles */
     .gallery .box {
-        width: 50%;
-        padding-bottom: 50%;
+        width: 33.3%;
+        padding-bottom: 33.3%;
     }
 }
 @media only screen and (min-width : 480px) {
