@@ -165,7 +165,7 @@ figcaption p {
 }
 @media only screen and (min-width: 480px){
 .gallery .box {
-    /* width: 33.3%; */
+    width: 33.3%; 
     padding-bottom: 33.3%;
 }
 }
